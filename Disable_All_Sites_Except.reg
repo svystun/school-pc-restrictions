@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Policies\Google\Chrome\URLBlocklist]
+"1"="*"
+
+[HKEY_CURRENT_USER\Software\Policies\Google\Chrome\URLAllowlist]
+"1"="ukr.net"

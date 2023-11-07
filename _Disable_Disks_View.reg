@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+; Скрытие дисков
+"NoDrives"=dword:03ffffff
+
+; Запрет доступа к отображению информации о дисках
+"NoViewOnDrives"=dword:67108863

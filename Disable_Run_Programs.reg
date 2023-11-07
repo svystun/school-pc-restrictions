@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+; Запретить все програмы кроме списока ниже
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"RestrictRun"=dword:00000001
+
+; Разрешить запуск програм только тех, что в списке ниже
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\RestrictRun]
+"1"="regedit.exe"
+"2"="mspaint.exe"
+"3"="calc.exe"
