@@ -4,7 +4,11 @@ This is a collections of *.regs files for Windows 10.
 
 ## Installation
 
-Use doble-click on each reg file for import to Windows 10 registry.
+Use doble-click on each reg file for import to Windows 10 registry. 
+
+Install script ArchiveUserDesktop.ps1 to autostart in group policy (gpedit.msc) 
+
+Restrict access to disk C: (and D:) for specific users.
 
 ## Contributing
 
