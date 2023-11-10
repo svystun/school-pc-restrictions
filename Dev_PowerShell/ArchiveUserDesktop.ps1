@@ -63,5 +63,5 @@ if (Test-Path $folderDest) {
 $folderSource = $DesktopPath + "\*"
 
 Write-Host "Moving files and folders..."
-Get-Item –Path $folderSource | Move-Item -Destination $folderDest -Force
+Get-Item -Path $folderSource | Move-Item -Destination $folderDest -Force
 Show-School-Rules
