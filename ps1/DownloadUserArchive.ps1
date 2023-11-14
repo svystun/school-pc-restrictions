@@ -1,5 +1,5 @@
 $PublicDocsPath = [Environment]::GetFolderPath("CommonDocuments")
-$outputFile = $PublicDocsPath + "\Message.ps1"
+$outputFile = $PublicDocsPath + "\ArchiveUserDesktop.ps1"
 
 Import-Module BitsTransfer
-Start-BitsTransfer -Source "https://github.com/svystun/school-pc-restrictions/blob/main/Dev_PowerShell/Message.ps1?raw=true" -Destination $outputFile
+Start-BitsTransfer -Source "https://github.com/svystun/school-pc-restrictions/blob/main/ps1/ArchiveUserDesktop.ps1?raw=true" -Destination $outputFile
