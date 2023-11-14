@@ -4,13 +4,13 @@ This is a collections of *.regs files for Windows 10.
 
 ## Installation
 
-1. Download this repository to any folder on your PC (Windows 10).
+1. Download this repository to any folder on your PC (**Windows 10**).
 
 2. Use doble-click on each reg file for import to Windows 10 registry.
 
-3. Download or copy file ArchiveUserDesktop.ps1 to shared public documents folder (C:\Users\Public\Documents) and set permissions for reading and executing.
+3. Download or copy file **ArchiveUserDesktop.ps1** to shared public documents folder **(C:\Users\Public\Documents)** and set permissions for reading and executing.
 
-4. Install script ArchiveUserDesktop.ps1 to autostart in group policy (gpedit.msc)
+4. Install script **ArchiveUserDesktop.ps1** to autostart in group policy (gpedit.msc)
 
 5. Restrict access to disk C: (and D:) for specific users.
 
