@@ -1,4 +1,4 @@
-# Set execution policy
+﻿# Set execution policy
 Set-ExecutionPolicy RemoteSigned –Force
 #Get-ExecutionPolicy -List
 
