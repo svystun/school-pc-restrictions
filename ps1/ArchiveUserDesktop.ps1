@@ -1,5 +1,5 @@
 ﻿$userName = [Environment]::UserName
-if ($userName -ne "User2023") {
+if ($userName -ne "Uchen71") {
     Exit
 }
 

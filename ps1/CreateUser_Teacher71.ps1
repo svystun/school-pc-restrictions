@@ -1,11 +1,11 @@
-## Show user properties ##
+п»ї## Show user properties ##
 #> net user school71
 
 ## Set user account expire date ##
 #> Set-LocalUser -Name school71 -AccountExpires 05/11/2023 -Verbose
 
 # Set execution policy
-Set-ExecutionPolicy RemoteSigned –Force
+Set-ExecutionPolicy RemoteSigned вЂ“Force
 #Get-ExecutionPolicy -List
 
 $UserName = "Teacher71"
@@ -26,7 +26,7 @@ If ((Get-LocalGroup | ? Name -eq $GroupUserEng | Measure).Count -eq 1) {
     Write-Host "$($UserName) has been added to group $($GroupUserEng)"
 }
 
-$GroupUserRus = "Пользователи"
+$GroupUserRus = "РџРѕР»СЊР·РѕРІР°С‚РµР»Рё"
 If ((Get-LocalGroup | ? Name -eq $GroupUserRus | Measure).Count -eq 1) {
     Add-LocalGroupMember -Group $GroupUserRus -Member $UserName
     Write-Host "$($UserName) has been added to group $($GroupUserRus)"

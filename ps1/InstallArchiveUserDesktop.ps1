@@ -1,3 +1,7 @@
+# Set execution policy
+Set-ExecutionPolicy RemoteSigned –Force
+#Get-ExecutionPolicy -List
+
 $PublicDocsPath = [Environment]::GetFolderPath("CommonDocuments")
 $outputFile = $PublicDocsPath + "\ArchiveUserDesktop.ps1"
 
