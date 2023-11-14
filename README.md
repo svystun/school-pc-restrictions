@@ -1,6 +1,6 @@
 # School restrictions
 
-This is a collections of *.regs files for Windows 10.
+This is a collections of *.regs files and PowerShell scripts for Windows 10.
 
 ## Installation
 
@@ -12,7 +12,7 @@ This is a collections of *.regs files for Windows 10.
 
 4. Install script **ArchiveUserDesktop.ps1** to autostart in group policy (gpedit.msc)
 
-5. Restrict access to disk C: (and D:) for specific users.
+5. Restrict access to **disk C: (and D:)** for specific users.
 
 ## Contributing
 
