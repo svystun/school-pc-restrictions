@@ -1,9 +1,0 @@
-Windows Registry Editor Version 5.00
-
-[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System]
-"EnableProfileQuota"=dword:00000001
-"ProfileQuotaMessage"="Перевищено розмір профілю"
-"MaxProfileSize"=dword:000f4240
-"IncludeRegInProQuota"=dword:00000001
-"WarnUser"=dword:00000001
-"WarnUserTimeout"=dword:00000005
